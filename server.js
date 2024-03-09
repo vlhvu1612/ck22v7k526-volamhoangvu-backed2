@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const app = require("./app");
 const config = require("./app/config");
 
