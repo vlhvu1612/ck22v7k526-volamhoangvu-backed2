@@ -10,7 +10,7 @@ router.route("/")
     .delete(contacts.deleteAll);
 
 router.route("/favorite")
-    .get(contacts.findALLFavorite);
+    .get(contacts.findAllFavorite);
 
 router.route("/:id")
     .get(contacts.findOne)
